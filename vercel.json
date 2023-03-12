@@ -1,6 +1,4 @@
 {
-  "buildCommand": "cd client && yarn install && yarn build",
-  "outputDirectory": "client/next",
   "rewrites": [
     {
       "source": "/((?!api/.*).*)",
