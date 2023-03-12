@@ -29,12 +29,8 @@ app.post("/api/chat", async (req, res) => {
   });
 });
 
-app.get("/models", async (req, res) => {
-  const response = await openai.listEngines();
-  console.log(response.data.data);
-  res.json({
-    models: response.data,
-  });
+app.get("/api/test", (req, res) => {
+  res.send("Test");
 });
 
 app.listen(port);
