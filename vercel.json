@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd client && yarn install && yarn build && yarn start",
+  "buildCommand": "cd client && yarn install && yarn build",
   "outputDirectory": "client",
   "rewrites": [
     {
