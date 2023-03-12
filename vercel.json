@@ -1,5 +1,4 @@
 {
-  "buildCommand": "cd client && yarn install && yarn build",
   "rewrites": [
     {
       "source": "/((?!api/.*).*)",
